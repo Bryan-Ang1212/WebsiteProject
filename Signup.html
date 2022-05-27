@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      SignUp Page
+    </title>
+  <style>
+
+    .signup-form {
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 600px;
+      margin-left: 450px;
+      margin-top: 5px;
+      border-width: 2px;
+      border-style: solid;
+      border-color: rgba(0, 0, 0, 0.3);
+      background-color: rgb(239, 239, 239);
+    
+
+      
+    }
+
+    .hearder {
+      position: absolute;
+      right: 90px;
+      bottom: 40px;
+      color: rgb(255, 255, 255);
+      font-size: 40px;
+    }
+
+    .hearder-area {
+      flex: 1;
+    }
+
+    .header-img {
+      width: 100%;
+    }
+
+    .form-1 {
+      text-align: center;
+    }
+
+    p {
+      font-size: 25px;
+      color: gray;
+    }
+
+    .fs-area {
+      row-gap: 20px ;
+    }
+
+    .columns-1 {
+      height: 35px;
+      
+      margin-right: 10px;
+      border: none;
+      background-color: rgb(226, 225, 225);
+      border-radius: 8px;
+      box-shadow: 2px 2px 5px rgba(0  , 0, 0, 0.5);
+      
+    }
+    .columns-2 {
+      height: 35px;
+      width: 345px;
+      margin-right: 10px;
+      border: none;
+      background-color: rgb(226, 225, 225);
+      border-radius: 8px;
+      box-shadow: 2px 2px 5px rgba(0  , 0, 0, 0.5);
+    }
+
+    .birthday-font {
+      font-size: 20px;
+      color: gray;
+      padding-right: 10px;
+    }
+
+    .button-1 {
+      margin-left: 15px;
+      margin-bottom: 15px;
+    }
+
+    .button-2 {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      border: none;
+      background-color: rgb(74, 74, 228);
+      box-shadow: 2px 2px 5px rgba(0  , 0, 0, 0.5);
+      color: white;
+      font-weight: bold;
+    }
+
+    .button-2:hover {
+      cursor: pointer;
+      opacity: 0.9;
+    }
+
+    .submit-button {
+      border-radius: 10px;
+      padding: 10px;
+      border: none;
+      background-color: red;
+      color: white;
+      box-shadow: 2px 2px 5px rgba(0  , 0, 0, 0.5);
+      color: white;
+      font-weight: bold;
+    }
+
+    .submit-button:hover  {
+      cursor: pointer;
+      opacity: 0.9;
+    }
+
+    
+    
+  </style>
+
+  </head>
+
+
+  <body style="background-image: url( img/background\ wallpaper.jpg   );   
+  ">
+   
+  <div class="signup-form">
+    
+    
+    <div style="position: relative;">
+     <img class="header-img" src="img/ps-store.jpeg">
+     <h1 class="hearder"> SignUp PlayStation.Store</h1>
+    </div>
+
+     <br>
+    <form class="form-1" action="">
+      <p>Please fill in this form to create an account!</p>
+      <div class="fs-area">
+        <input class="columns-1" type="text" name="fname" id="fname" placeholder="First name" required>
+        <input class="columns-1" type="text" name="lname" id="fname" placeholder="Second name">
+      </div>
+      <br>
+      <input class="columns-2" type="text" placeholder="Email"><br><br>
+      
+      <input class="columns-2"
+      type="password" name="password" id="fname" placeholder="Password: at lease 8 characters"><br>
+      <br>
+    
+      <input class="columns-2"
+      type="password" name="password" 
+      id="fname" placeholder="Confirm Password"><br>
+     
+      <br>
+      <div class="birthday-font">
+        <input type="radio" id="male" name="gender" value="male">
+        <label >male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="">female</label>
+      </div>
+      <br>
+      <label class="birthday-font" for="">Birthday</label>
+      <input class="columns-1" type="date" id="datemin" min="1/1/2000"><br><br>
+     
+      <div class="terms of use">
+        <input type="checkbox">
+        <label for="">I accept the <u>Terms of Use</u>  & <u>Privacy Policy</u> </label>
+      </div>
+      <br>
+      <input class="submit-button" type="submit">
+    </form>
+
+    <div class="button-1">
+      <a href="Web page project.html">
+        <button class="button-2">Home</button></a> 
+    </div>
+
+    
+    
+  </div>
+  
+  </div>  
+  </body>
+</html>
